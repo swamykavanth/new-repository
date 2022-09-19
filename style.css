@@ -1,0 +1,97 @@
+body{
+    margin:0;
+    padding:0;
+    background-image: url(Modern-office.jpg);
+    
+   
+}
+
+.login {
+    height:370px;
+    width:270px;
+    background-color:skyblue;
+    color:white;
+    padding:30px;
+    top:125px;
+    left: 500px;
+    position:absolute;
+    box-sizing:border-box;
+    border-radius:20px;   
+
+}
+marquee{    
+    color:aquamarine;
+    font-size:50px;
+    font-style: italic;
+}
+
+h1{
+    margin:0;
+    padding:0 0 20px;
+    text-align:center;
+    font-size:22px;
+}
+.login h1{
+    color:white;
+    background-color: tomato;
+    border-radius: 5px;
+    margin:0;
+    padding:5px;
+    font-weight:bold;
+}
+.login h1:hover{
+    
+    color:gold;
+    border-radius:none;
+    font-weight:lighter;
+}
+.login input{
+    
+    width:100%;
+    margin-bottom: 18px;   
+
+}
+
+
+.login input[type="text"], input[type="password"]{
+    border:none;
+    border-bottom:1px solid white;
+    background:transparent;
+    color:#fff;
+    outline:none;
+    height:20px;
+    font-size:15px;
+
+}
+ 
+.login input[type="submit"]{
+    
+    height:30px;
+    color:tomato;
+    background:cyan;
+    font-size:20px;
+    border-radius:20px;
+    font-style: italic;   
+
+}
+.login input[type="submit"]:hover{
+    cursor:pointer;
+         
+    
+}
+.login input[type="submit"]:active{
+    background-color: blue;
+}
+
+.login a{    
+    text-decoration:none;    
+    font-size:18px;
+    line-height:30px;
+    color:blue;
+
+}
+.login a:hover{
+    color:red;
+    text-decoration:underline;
+
+}
